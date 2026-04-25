@@ -1,0 +1,13 @@
+{
+  "name": "antd-dynamic-table-ja",
+  "version": "0.1.0",
+  "description": "Ant DesignベースのReact動的テーブルコンポーネント（日本語対応）",
+  "main": "src/DynamicTable.jsx",
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "antd": ">=5.0.0"
+  },
+  "keywords": ["react", "antd", "table", "japanese", "dynamic"],
+  "author": "sobu-lab",
+  "license": "MIT"
+}
