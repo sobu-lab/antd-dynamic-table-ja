@@ -31,6 +31,7 @@ export default function DynamicTable({
       return (
         <input
           autoFocus
+          size={1}
           value={editValue}
           onChange={e => setEditValue(e.target.value)}
           onBlur={() => commitEdit(record, key)}
