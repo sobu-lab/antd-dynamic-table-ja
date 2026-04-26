@@ -38,7 +38,7 @@ export default function DynamicTable({
             if (e.key === "Enter") commitEdit(record, key);
             if (e.key === "Escape") setEditingCell(null);
           }}
-          style={{ width: "100%", border: "1px solid #0017C1", borderRadius: 4, padding: "2px 6px", outline: "none" }}
+          style={{ width: "100%", height: 22, boxSizing: "border-box", border: "1px solid #0017C1", borderRadius: 4, padding: "0 6px", outline: "none", fontSize: 14 }}
         />
       );
     }
