@@ -13,13 +13,7 @@ export default function Example() {
   return (
     <ConfigProvider locale={jaJP} theme={{ token: { colorPrimary: "#0017C1" } }}>
       <div style={{ padding: 32 }}>
-
-        <h2>フィルターあり</h2>
         <DynamicTable items={STOCK_DATA} showFilter={true} />
-
-        <h2>フィルターなし</h2>
-        <DynamicTable items={STOCK_DATA} />
-
       </div>
     </ConfigProvider>
   );
